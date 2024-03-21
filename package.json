@@ -1,0 +1,50 @@
+{
+  "name": "voluptatesea",
+  "version": "1.0.0",
+  "description": "The most efficient JS implementation calculating the Levenshtein distance, i.e. the difference between two strings.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GilbertoHackett/voluptatesea.git"
+  },
+  "author": "GailJones",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "ava",
+    "bench": "matcha bench.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "sunt",
+    "levenshtein",
+    "distance",
+    "enim",
+    "ab",
+    "string",
+    "voluptates",
+    "ipsam",
+    "fast",
+    "fuzzy",
+    "maxime",
+    "odio",
+    "compare",
+    "cupiditate",
+    "reiciendis",
+    "text",
+    "match",
+    "nostrum"
+  ],
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "fast-levenshtein": "^2.0.5",
+    "levenshtein-edit-distance": "^2.0.0",
+    "matcha": "^0.7.0",
+    "talisman": "^0.18.0",
+    "leven": "^2.1.0",
+    "xo": "^0.16.0"
+  }
+}
